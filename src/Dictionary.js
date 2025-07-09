@@ -10,11 +10,12 @@ export default function Dictionary() {
     }
 
     function search(event) {
-        event.preventDefault();
+      event.preventDefault();
 
-        // documentation: https://dictionaryapi.dev/
-        let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
-        axios.get(apiUrl).then(handleResponse);
+      // documentation: https://www.shecodes.io/learn/apis/dictionary
+      let apiKey = "e4a0o883f7063taaf10b8438bb5de43f";
+      let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
+      axios.get(apiUrl).then(handleResponse);
     }
 
     function handleKeywordChange(event) {
