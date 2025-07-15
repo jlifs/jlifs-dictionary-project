@@ -1,21 +1,12 @@
-import logo from "./logo.png";
-import './App.css';
+import React from "react";
 import Dictionary from "./Dictionary";
+import Footer from "./Footer";
 
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
-        <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
-        </header>
-        <main>
-          <Dictionary />
-        </main>
-        <footer className="App-footer">
-          <small>Coded by Jennifer Lifsey</small>
-        </footer>
-      </div>
+      <Dictionary defaultKeyword="sunset" />
+      <Footer />
     </div>
   );
 }
