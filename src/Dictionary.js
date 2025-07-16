@@ -42,7 +42,7 @@ export default function Dictionary({ defaultKeyword }) {
       .catch(handleDictionaryError);
 
     // SheCodes Images API
-    const sheKey = process.env.REACT_APP_SHECODES_KEY;
+    const sheKey = "e4a0o883f7063taaf10b8438bb5de43f";
     const imagesUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${sheKey}`;
     axios.get(imagesUrl).then(handlePhotoResponse).catch(handlePhotoError);
   }
@@ -56,7 +56,7 @@ export default function Dictionary({ defaultKeyword }) {
   return (
     <div className="Dictionary container py-4">
       <section>
-        <h1>What word do you want to look up?</h1>
+        <h1>Search dictionary</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="search"
