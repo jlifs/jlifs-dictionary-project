@@ -67,7 +67,7 @@ export default function Dictionary({ defaultKeyword }) {
             autoFocus
           />
         </form>
-        <div className="hint">suggested words: sunset, wine, yoga, plant…</div>
+        <div className="hint">suggested words: sunset, sunrise, wine, yoga…</div>
       </section>
 
       {error && <p className="error">{error}</p>}
