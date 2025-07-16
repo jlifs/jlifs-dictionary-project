@@ -56,7 +56,7 @@ export default function Dictionary({ defaultKeyword }) {
   return (
     <div className="Dictionary container py-4">
       <section>
-        <h1>Search dictionary</h1>
+        <h1>What word do you want to look up?</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="search"
@@ -67,7 +67,7 @@ export default function Dictionary({ defaultKeyword }) {
             autoFocus
           />
         </form>
-        <div className="hint">suggested words: sunset, sunrise, wine, yoga…</div>
+        <div className="hint">i.e. sunset, wine, yoga…</div>
       </section>
 
       {error && <p className="error">{error}</p>}
