@@ -12,23 +12,22 @@ export default function Footer() {
       >
         Jennifer Lifsey
       </a>{" "}
-      and is open-sourced on{" "}
+      and is{" "}
       <a
         href="https://github.com/jlifs/jlifs-dictionary-project"
         target="_blank"
         rel="noopener noreferrer"
       >
-        GitHub
+        open-sourced on GitHub
       </a>{" "}
-      and hosted on{" "}
+      and{" "}
       <a
         href="https://shimmering-meerkat-b84b6c.netlify.app/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Netlify
+        hosted on Netlify
       </a>
-      .
     </footer>
   );
 }

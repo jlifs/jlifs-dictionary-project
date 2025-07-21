@@ -63,7 +63,7 @@ export default function Dictionary({ defaultKeyword }) {
             className="search-input"
             value={keyword}
             onChange={(e) => setKeyword(e.target.value)}
-            placeholder="e.g. sunset, yoga, coding"
+            placeholder="Search for a word"
             autoFocus
           />
         </form>
