@@ -12,7 +12,8 @@ export default function Dictionary({ defaultKeyword }) {
 
   useEffect(() => {
     search();
-    }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   function handleDictionaryResponse(response) {
     setResults(response.data[0]);
