@@ -3,9 +3,10 @@
 }
 
 .App-logo {
-  max-width: 200px;
+  max-width: 300px;
   display: block;
   margin: 0 auto;
+  padding: 0.5px;
 }
 
 .App-footer {
