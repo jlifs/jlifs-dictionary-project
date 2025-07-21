@@ -10,7 +10,7 @@ export default function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Jennifer Lifsey
+        Jennifer
       </a>{" "}
       and is open-sourced on{" "}
       <a
