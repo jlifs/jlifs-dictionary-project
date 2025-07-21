@@ -4,7 +4,15 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <footer className="Footer">
-      This project was coded by Jennifer Lifsey and is open-sourced on{" "}
+      This project was coded by{" "}
+      <a
+        href="https://github.com/jlifs"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Jennifer Lifsey
+      </a>{" "}
+      and is open-sourced on{" "}
       <a
         href="https://github.com/jlifs/jlifs-dictionary-project"
         target="_blank"

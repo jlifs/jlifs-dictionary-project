@@ -1,7 +1,7 @@
-.Result h1 {
+.Results h1 {
     font-style: normal;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 36px;
-    line-height: 43px;
+    line-height: 1.5;
     color: #000000;
   }

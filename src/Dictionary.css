@@ -5,8 +5,8 @@
 
 .Dictionary section {
   box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
-  border-radius: 8px;
-  background: white;
+  border-radius: 15px;
+  background: rgb(236, 233, 233);
   margin-top: 10px;
   padding: 40px;
 }
@@ -33,12 +33,12 @@
 }
 
 .search-input:focus {
-  border-color: #1cd6eb;
+  border-color: #6c63ff;
   box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.2);
 }
 
 .Dictionary .hint {
   margin-top: 15px;
-  font-size: 0.9rem;
+  font-size: 11px;
   color: #6c757d;
 }
